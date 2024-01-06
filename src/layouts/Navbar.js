@@ -11,7 +11,7 @@ export default function Navbar() {
         <Link link={"#"} text={"Schedule"} />
         <Link link={"#"} text={"Contact"} />
       </div>
-      <button class='bg-black px-8 py-1 m-2 border border-white rounded-3xl hover:bg-gray-800'>Register</button>
+      <button class='bg-black px-8 py-1 m-2 mr-0 border border-white rounded-3xl hover:bg-gray-800'>Register</button>
     </navbar>
   )
 }
