@@ -5,7 +5,7 @@ import Navbar from './layouts/Navbar';
 
 function App() {
   return (
-    <div class="px-16 w-screen h-screen bg-no-repeat bg-center bg-[url('/src/assets/bgimage-ballet.jpg')]">
+    <div class="relative px-32 py-6 w-screen h-screen bg-no-repeat bg-center bg-[url('/src/assets/bgimage-ballet.jpg')]">
       <Navbar />
       <AboutSection />
       <ButtonSection />
