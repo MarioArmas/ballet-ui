@@ -4,7 +4,7 @@ import Link from '../components/Link'
 export default function Navbar() {
   return (
     <navbar class='text-white text-lg flex justify-between py-5'>
-      <div class='flex justify-evenly items-center gap-x-16'>
+      <div class='flex justify-evenly items-center gap-x-14'>
         <h1 class='text-white text-3xl'>Balletique</h1>
         <Link link={"#"} text={"About"} />
         <Link link={"#"} text={"Classes"} />
